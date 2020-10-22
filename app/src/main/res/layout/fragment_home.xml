@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_20"
+    >
+
+    <LinearLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_below="@+id/layout_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/praRunsheet"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:src="@drawable/pra_runsheet">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/mn_pra"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:onClick="PraRunsheet"
+                android:text="Pra Runsheet "
+                android:textColor="@color/light_blue_800"
+                android:textSize="16dp"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/runsheet"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/runsheet">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/mn_runsheet"
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:onClick="Runsheet"
+                android:text="Runsheet / From Pra "
+                android:textColor="@color/light_blue_800"
+                android:textSize="16dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/overlay_dark_20">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Un - Approve "
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pra_run_not_approved"
+                android:layout_width="186dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/red"
+                android:onClick="UnPraRunsheet"
+                android:text="Pra Runsheet "
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/run_not_approved"
+                android:layout_width="191dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/indigo_A200"
+                android:text="Runsheet "
+                android:textAllCaps="false"
+                android:onClick="UnRunsheet"
+                android:textColor="@color/white"
+                android:textSize="16dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

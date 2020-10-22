@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/table"
+        android:layout_width="378dp"
+        android:layout_height="287dp"
+        android:layout_below="@+id/layout_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-132dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="206dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/default_space_top"
+            android:text="Log In Mobile Orion"
+            android:textSize="@dimen/default_login_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_input"
+            android:drawableStart="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/hint_username"
+            android:paddingLeft="@dimen/max_text_length1"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            android:textColor="#464646" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/default_input_text_size"
+            android:background="@drawable/rounded_input"
+            android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/max_text_length1"
+            android:textColor="#464646" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="496dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/default_input_text_size"
+            android:background="@color/light_blue_900"
+            android:paddingLeft="@dimen/max_text_length1"
+            android:paddingRight="@dimen/max_text_length4"
+            android:text="@string/btn_login"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/default_login_size" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="152dp"
+        android:layout_above="@+id/layout_logo"
+        android:layout_below="@id/layout_logo"
+        android:layout_marginTop="-280dp"
+        android:layout_marginBottom="128dp"
+        android:src="@drawable/logo_jne_express" />
+
+</RelativeLayout>

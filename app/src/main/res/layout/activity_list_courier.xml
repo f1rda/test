@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablelayoutid"
+        android:layout_marginTop="10dp">
+
+            <TableRow
+                android:id="@+id/rowlay"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/courierId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="CGK4353"
+                    android:textColor="@color/light_blue_800"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="-"
+                    android:textColor="@color/light_blue_800"/>
+                <TextView
+                    android:id="@+id/nama_courier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="BAMBANG ARIA NUGROHO"
+                    android:textColor="@color/light_blue_800"/>
+
+            </TableRow>
+        <TableRow
+
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:clickable="true">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_horizontal"
+                android:text="CGK4353"
+                android:textColor="@color/light_blue_800"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_horizontal"
+                android:text="-"
+                android:textColor="@color/light_blue_800"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_horizontal"
+                android:text="BAMBANG ARIA NUGROHO"
+                android:textColor="@color/light_blue_800"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

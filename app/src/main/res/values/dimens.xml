@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="max_text_length">1008.00dp</dimen>
+    <dimen name="max_chat_bubble_length">300dp</dimen>
+    <dimen name="max_text_length2">126.00dp</dimen>
+    <dimen name="max_text_length4">64.80dp</dimen>
+    <dimen name="max_text_length1">36.00dp</dimen>
+    <dimen name="max_text_length3">28.80dp</dimen>
+    <dimen name="default_layout_height">35dp</dimen>
+    <dimen name="default_login_text_size">30sp</dimen>
+    <dimen name="default_login_size">22sp</dimen>
+    <dimen name="default_input_text_size">16sp</dimen>
+    <dimen name="default_message_text_size">14sp</dimen>
+    <dimen name="default_timestamp_text_size">10sp</dimen>
+    <dimen name="default_margin_top">8sp</dimen>
+    <dimen name="default_space_top">5sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_verysmall">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+
+</resources>
